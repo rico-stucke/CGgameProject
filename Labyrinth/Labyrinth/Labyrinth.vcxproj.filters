@@ -29,6 +29,9 @@
     <ClInclude Include="Shader.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Triangle.vs">
@@ -40,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="container.jpg">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="awesomeface.png">
       <Filter>Ressourcendateien</Filter>
     </Image>
   </ItemGroup>
