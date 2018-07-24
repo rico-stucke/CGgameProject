@@ -32,21 +32,25 @@
     <ClInclude Include="Camera.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Triangle.vs">
+    <None Include="LightingFragment.fs">
       <Filter>Ressourcendateien</Filter>
     </None>
-    <None Include="TriangleFrag.fs">
+    <None Include="LightingVertex.vs">
       <Filter>Ressourcendateien</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="container.jpg">
+    <None Include="ModelVertex.vs">
       <Filter>Ressourcendateien</Filter>
-    </Image>
-    <Image Include="awesomeface.png">
+    </None>
+    <None Include="ModelFragment.fs">
       <Filter>Ressourcendateien</Filter>
-    </Image>
+    </None>
   </ItemGroup>
 </Project>
